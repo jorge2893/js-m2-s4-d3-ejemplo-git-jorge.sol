@@ -25,3 +25,11 @@ DEPLOY DE PÁGINA WEB EN GITHUB PAGES
 1.- crear una rama llamada gh-pages -> debe estar actualizada con los cambios que queremos ver
 2.- git checkout -m gh-pages -> desde rama más actualizada
 3.- git push origin gh-pages -> desde la rama gh-pages subimos los cambios
+
+
+
+COMANDOS PARA TRABAJAR CON STASH
+git stash list -> ver lista de STASH
+git stash save "nombre descriptivo del stash" -> nos crea un apartado con el código agregado
+git stash apply stash@{0} -> indicar el número del stash
+git stash drop stash@{0} -> indicamos el número de stash a eliminar
