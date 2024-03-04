@@ -1,0 +1,21 @@
+1.- git init -> iniciamos un repositorio (local) / la primera vez que trabajos con un repositorio
+2.- git add . -> agregamos cambios al área de preparación
+3.- git commit -m "Proyecto inicial"
+
+
+
+//comando visto em la clase
+git checkout -b main -> permite crear y cambiarnos a la rama main
+git branch -> verificar las ramas que tenemos creadas y en cual estamos
+git branch development - permite crear una nueva rama
+git checkout development
+git merge development -> fusionar cambios que tiene rama development en main
+git branch -d nombre_rama -> eliminar una rama
+git checkout "versión" -> permite ver el proyecto en una versión x
+
+//comando para enlazar repositorio local con github (repositorio remoto)
+1.- crear repositorio en github
+2.- seguir las instruciones de github:
+3.- git remote add origin "url" -> url sin commillas
+4.- (opciona) -> crear y cambiarse a rama main git branch -M main
+5- git push origin main -> enviar los commits (versiones) a github
