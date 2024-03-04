@@ -19,3 +19,9 @@ git checkout "versión" -> permite ver el proyecto en una versión x
 3.- git remote add origin "url" -> url sin commillas
 4.- (opciona) -> crear y cambiarse a rama main git branch -M main
 5- git push origin main -> enviar los commits (versiones) a github
+
+
+DEPLOY DE PÁGINA WEB EN GITHUB PAGES
+1.- crear una rama llamada gh-pages -> debe estar actualizada con los cambios que queremos ver
+2.- git checkout -m gh-pages -> desde rama más actualizada
+3.- git push origin gh-pages -> desde la rama gh-pages subimos los cambios
